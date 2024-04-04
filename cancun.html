@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable-no"/>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+	<title>paisajes MX</title>
+
+</head>
+<body>
+    
+	<div class="row bg-success pt-3 pb-3 col-sm-12" >
+	<h1 class="text-center text-light">PAISAJES DE MÉXICO</h1>
+	</div>
+	<main>
+	<div class="container">
+    
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">Todos somos México</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="jalisco.html" class="nav-link">Jalisco</a></li>
+        <li class="nav-item"><a href="monterrey.html" class="nav-link">Monterrey</a></li>
+        <!--<li class="nav-item"><a href="mexico.html" class="nav-link">México</a></li>-->
+        <li class="nav-item"><a href="cancun.html" class="nav-link bg-danger text-light">Cancun</a></li>
+      </ul>
+    </header>
+    <div class="caja">
+    <h2>Cancun, Quintana Roo <span class="span">:)</span></h2>
+    <p>En el mar la vida es mas sabrosa...</p>
+   </div>
+   <br>
+
+   <!--aca INICIAN TODAS LAS CARTAS--->
+   
+      <div class="row">
+<!---aca inicia la primera foto-->
+     <div class="col-lg-4 pb-3">
+        
+        <div class="card">
+
+           <img src="assets/tulum.jpg" alt="tulum mexico" title="tulum">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Centro Arqueologico de Tulum</h5>Tulum es el sitio más emblemático de la costa de Quintana Roo, debido a su ubicación privilegiada y la excelente conservación de sus edificios y pinturas murales. Es bien conocida su muralla, que delimita al conjunto principal por sus lados norte, sur y oeste, ya que el sector oriental mira al mar Caribe; tiene cinco accesos y dos torres de vigilancia. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/vc8rf2FGAMnYMHAD7'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="cerroSilla();" type="button" class="btn btn-sm btn-outline-secondary" id="like">like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo">0</span></small>
+              </div>
+            </div>
+          </div>
+   	  	 
+       </div>
+       <!--aca finaliza la primera--->
+
+       <!--inicia la segunda--->
+   	  
+      <div class="col-lg-4 pb-3">
+        <div class="card">
+
+           <img src="assets/hotelera.jpg" alt="zona hotelera" title="zona hotelera">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Zona Hotelera, cancún</h5>El área de la Zona Hotelera abarca varios subdistritos y es sede de complejos turísticos todo incluido, restaurantes internacionales y playas de arena para relajarse.La Torre Escénica del Embarcadero de Cancún ofrece vistas de la ciudad. Los centros comerciales ofrecen marcas internacionales y la vida nocturna incluye bares íntimos y grandes clubes de salsa. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/rASpY99k55X1DQgK8'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="monterreyNoche();" type="button" class="btn btn-sm btn-outline-secondary" id="like">Like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_1">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+       </div>
+       <!--aca finaliza la segunda--->
+
+       <!--aca inicia la tercera--->
+
+<div class="col-lg-4 pb-3">
+
+   <div class="card">
+
+           <img src="assets/bacalar.jpg" alt="laguna bacalar" title="laguna bacalar">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Laguna de Bacalar</h5>El paisaje que conforma la laguna de Bacalar es de una exoticidad cautivadora. Rodeada de manglares y exuberante vegetación, puede recorrerse en pequeñas canoas para disfrutar sus casi 50 kilómetros de longitud y así ser conscientes de la maravillosa policromía de sus mansas aguas.En la entrada del pueblo se encuentra otro espacio imperdible: el Cenote Azul, un impresionante ojo de agua que de extiende en medio de una espesa vegetación que hace contraste con el añil de sus aguas.  </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/zKVECCsKVc8fqvAN9'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="bosquePark();" type="button" class="btn btn-sm btn-outline-secondary" id="like">Like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_2">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+      <!--aca finaliza la tercera--->
+          <!--aca inicia la cuarta--->
+
+<div class="col-lg-4 pb-3">
+
+   <div class="card">
+
+           <img src="assets/cozumel.jpg" alt="puerto de cozumel" title="isla de cozumel">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Cozumel</h5>Cozumel, una isla mexicana en su mayoría subdesarrollada en el Mar Caribe, es un popular puerto de escala de cruceros famoso por su buceo. En el Parque Nacional Arrecifes de Cozumel, hay puntos de buceo alrededor de una sección del Arrecife Mesoamericano y las esculturas sumergidas del Museo Subacuático de Arte. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/hXdoCqQwGEnm9gLS6'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="museoAcero();" type="button" class="btn btn-sm btn-outline-secondary" id="like">like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_3">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+      <!--aca finaliza la cuarta--->
+        <!--aca inicia la quinta--->
+
+<div class="col-lg-4 pb-3">
+
+   <div class="card">
+
+           <img src="assets/mujeres.jpg" alt="isla mujeres" title="isla mujeres">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Isla Mujeres</h5>La Isla Mujeres es una isla mexicana en el mar Caribe, a 13 km de la costa de Cancún. Es un destino vacacional conocido por sus playas, como la Playa Norte, complejos turísticos y también por el esnórquel y el buceo en los arrecifes de coral circundantes.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/eMcNc453EYRizWjJ7'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="canonHuasteca();" type="button" class="btn btn-sm btn-outline-secondary" id="like">like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_4">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+      <!--aca finaliza la quinta--->
+          <!--aca inicia la sexta--->
+
+<div class="col-lg-4 pb-3">
+
+   <div class="card">
+
+           <img src="assets/chetumal.jpg" alt="chetumal" title="chetumal">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Chetumal</h5>Chetumal es una ciudad en la Península de Yucatán en México. El Museo de la Cultura Maya explora la historia indígena de la región. Fotos en el Museo de la Ciudad rastrean el pasado de Chetumal. Varios puntos de referencia, incluido el obelisco Flag Promenade, salpican el paseo marítimo Boulevard Bahía.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://g.page/GrutasDeGarcia?share'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="grutasGarcia();" type="button" class="btn btn-sm btn-outline-secondary" id="like">like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_5">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+      <!--aca finaliza la sexta--->
+
+
+   	  	 
+   	  </div>
+      <!--aca finalizan TODAS LAS CARTAS--->
+   	  
+
+     </div>
+
+ 
+	</main>
+  <!--FINALIZA CUERPO DE PAGINA--->
+	<footer class="footer">
+  <div class="row bg-danger col-sm-12 pt-3 pb-3 text-center">
+  <p>Todos los derechos reservados Gerza Vera &copy;</p>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+  

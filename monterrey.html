@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable-no"/>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+	<title>paisajes MX</title>
+
+</head>
+<body>
+   
+	<div class="row bg-success pt-3 pb-3 col-sm-12" >
+	<h1 class="text-center text-light">PAISAJES DE MÉXICO</h1>
+	</div>
+
+  <!--INICIA EL CUERPO DE LA PAGINA--->
+	<main>
+	<div class="container">
+    
+       <!--INICIA MENU Y CABECERA--->
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">Todos somos México</span>
+      </a>
+
+
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="jalisco.html" class="nav-link">Jalisco</a></li>
+        <li class="nav-item"><a href="monterrey.html" class="nav-link bg-danger text-light">Monterrey</a></li>
+        <!--<li class="nav-item"><a href="mexico.html" class="nav-link">México</a></li>-->
+        <li class="nav-item"><a href="cancun.html" class="nav-link">Cancun</a></li>
+      </ul>
+    </header>
+    <!--FINALIZA MENU Y CABECERA--->
+    
+    <div class="caja">
+    <h2>Monterrey, Nuevo León <span class="span">:)</span></h2>
+    <p>Aqui te deleitas hasta con la carnita Asada</p>
+   </div>
+   <br>
+
+   <!--aca INICIAN TODAS LAS CARTAS--->
+   
+      <div class="row">
+<!---aca inicia la primera foto-->
+     <div class="col-lg-4 pb-3">
+        
+        <div class="card">
+
+           <img src="assets/monte1.jpg" alt="cerro" title="cerro de la silla">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Cerro de la Silla</h5>La montaña más emblemática de Monterrey, tiene cuatro picos, que son los que le dan la forma de la silla. De izquierda a derecha, estos picos se dividen en Pico Antena, que es donde está la antena. Pico norte, que es el más alto con 1,821 metros de altura. Pico sur, que es la ruta más peligrosa.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/B6Zxy4tbvUaxKei48'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="cerroSilla();" type="button" class="btn btn-sm btn-outline-secondary" id="like">like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo">0</span></small>
+              </div>
+            </div>
+          </div>
+   	  	 
+       </div>
+       <!--aca finaliza la primera--->
+
+       <!--inicia la segunda--->
+   	  
+      <div class="col-lg-4 pb-3">
+        <div class="card">
+
+           <img src="assets/monte2.jpg" alt="monterrey" title="ciudad de monterrey">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Monterrey de Noche</h5>Vive la experiencia de conocer Monterrey y disfruta de los mejores lugares turísticos en Monterrey durante su faceta nocturna. Recorre los lugares más icónicos de la ciudad regia para conocer la vida nocturna. Paseo Santa Lucía es hermosa de día, pero de noche es espectacular. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/nrBMxaVoeRGCACe69'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="monterreyNoche();" type="button" class="btn btn-sm btn-outline-secondary" id="like">Like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_1">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+       </div>
+       <!--aca finaliza la segunda--->
+
+       <!--aca inicia la tercera--->
+
+<div class="col-lg-4 pb-3">
+
+   <div class="card">
+
+           <img src="assets/monte3.jpg" alt="bosque-magico" title="bosque-magico">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Bosque Magico</h5>"El parque de atracciones mecánicas más grande en el noreste de México. Cuenta con más de 30 atracciones (infantiles, familiares y extremas) que aseguran las emociones y diversión de sus visitantes.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/om1xFKpyNrsavsoB6'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="bosquePark();" type="button" class="btn btn-sm btn-outline-secondary" id="like">Like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_2">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+      <!--aca finaliza la tercera--->
+          <!--aca inicia la cuarta--->
+
+<div class="col-lg-4 pb-3">
+
+   <div class="card">
+
+           <img src="assets/museo.jpg" alt="museo-acero" title="museo del acero">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Museo del acero</h5>El Museo del acero se localiza en la ciudad de Monterrey, Nuevo Leon, está localizado en el Parque Fundidora; la museografía comprende diversas facetas que permiten la preservación del "Horno Alto". Su función es contar la historia de la industria siderúrgica y apoyar la educación formal e informal de las ciencias.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/kBQqooaMqMLk69Zr6'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="museoAcero();" type="button" class="btn btn-sm btn-outline-secondary" id="like">like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_3">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+      <!--aca finaliza la cuarta--->
+        <!--aca inicia la quinta--->
+
+<div class="col-lg-4 pb-3">
+
+   <div class="card">
+
+           <img src="assets/huasteca.jpg" alt="cañon-huasteca" title="cañon de la huasteca">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Cañon de la Huasteca</h5>Este maravilloso sitio se localiza en el extremo suroeste de la zona metropolitana de Monterrey, en el municipio de Santa Catarina y forma parte del Parque Nacional Cumbres de Monterrey.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://goo.gl/maps/ZVQnX4LKTosgb739A'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="canonHuasteca();" type="button" class="btn btn-sm btn-outline-secondary" id="like">like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_4">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+      <!--aca finaliza la quinta--->
+          <!--aca inicia la sexta--->
+
+<div class="col-lg-4 pb-3">
+
+   <div class="card">
+
+           <img src="assets/grutas.jpg" alt="grutas de garcia" title="grutas de garcia">
+            
+            <div class="card-body">
+              <p class="card-text"><h5>Grutas de Garcia</h5>Es un conjunto de cuevas y un atractivo turístico. Se encuentran localizadas en el municipio de García, Nuevo León, México, unos 30 km al noroeste de Monterrey. Las cuevas se encuentran dentro del área natural protegida estatal de la Sierra del Fraile.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://g.page/GrutasDeGarcia?share'" type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                  <button onclick="grutasGarcia();" type="button" class="btn btn-sm btn-outline-secondary" id="like">like</button>
+                </div>
+                <small class="text-success fs-5">likes: <span id="conteo_5">0</span></small>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+      <!--aca finaliza la sexta--->
+
+
+   	  	 
+   	  </div>
+      <!--aca finalizan TODAS LAS CARTAS--->
+   	  
+
+     </div>
+
+ 
+	</main>
+  <!--FINALIZA CUERPO DE PAGINA--->
+	<footer class="footer">
+  <div class="row bg-danger col-sm-12 pt-3 pb-3 text-center">
+  <p>Todos los derechos reservados Gerza Vera &copy;</p>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
